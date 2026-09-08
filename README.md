@@ -1,8 +1,3 @@
-<!-- Badge at top of README -->
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/YOUR_BUYMEACOFFEE_USERNAME)
-
----
-
 ### ☕ Support the Project
 If **Tileen** helps you stay focused and boost your daily productivity, consider buying me a coffee to support future updates and open-source maintenance!
 
@@ -17,6 +12,7 @@ If **Tileen** helps you stay focused and boost your daily productivity, consider
 ![SwiftUI](https://img.shields.io/badge/Swift-SwiftUI-orange.svg?style=flat-square&logo=swift)
 ![Unnotarized](https://img.shields.io/badge/Gatekeeper-Unnotarized-yellow.svg?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/YOUR_BUYMEACOFFEE_USERNAME)
 
 **Tileen** is a native macOS productivity app designed to maintain your flow state through chained interval timers, active app & website **Focus Shielding**, smart idle auto-pause/resume, menu bar widgets, and session analytics.
 

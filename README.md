@@ -1,3 +1,16 @@
+<!-- Badge at top of README -->
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/YOUR_BUYMEACOFFEE_USERNAME)
+
+---
+
+### ☕ Support the Project
+If **Tileen** helps you stay focused and boost your daily productivity, consider buying me a coffee to support future updates and open-source maintenance!
+
+<a href="https://www.buymeacoffee.com/amrodev" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180">
+</a>
+
+
 # ⏳ Tileen — Intelligent macOS Focus Shield & Chained Interval Timer
 
 ![macOS 13.0+](https://img.shields.io/badge/macOS-13.0%2B-blue.svg?style=flat-square&logo=apple)
@@ -63,16 +76,3 @@ If macOS refuses to open the application, open **Terminal** and execute:
 
 ```bash
 sudo xattr -rd com.apple.quarantine /Applications/Tileen.app
-
-
-<!-- Badge at top of README -->
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/YOUR_BUYMEACOFFEE_USERNAME)
-
----
-
-### ☕ Support the Project
-If **Tileen** helps you stay focused and boost your daily productivity, consider buying me a coffee to support future updates and open-source maintenance!
-
-<a href="https://www.buymeacoffee.com/amrodev" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180">
-</a>

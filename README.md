@@ -89,3 +89,14 @@ If **Tileen** helps you stay focused, beat procrastination, and boost your daily
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+
+---
+
+## 💬 Feedback & Community
+
+Your feedback helps make Tileen better! Have a feature request, suggestion, or bug report?
+
+- 🐛 **Report a Bug / Request Feature:** [Open a GitHub Issue](https://github.com/AmrDeveloper/Tileen/issues/new)
+- 💬 **Join Discussions:** [GitHub Discussions](https://github.com/AmrDeveloper/Tileen/discussions)
+- 📧 **Direct Email:** Send your feedback to `stall_spring4i@icloud.com`

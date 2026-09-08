@@ -3,7 +3,7 @@
 ![macOS 13.0+](https://img.shields.io/badge/macOS-13.0%2B-blue.svg?style=flat-square&logo=apple)
 ![SwiftUI](https://img.shields.io/badge/Swift-SwiftUI-orange.svg?style=flat-square&logo=swift)
 ![Unnotarized](https://img.shields.io/badge/Gatekeeper-Unnotarized-yellow.svg?style=flat-square)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/YOUR_BUYMEACOFFEE_USERNAME)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/amrodev)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
 
 **Tileen** is a modern, high-performance macOS productivity application built natively with SwiftUI. Designed for deep work enthusiasts, developers, writers, and students, Tileen combines customizable chained interval timers with an active **Focus Shield**, smart idle detection, menu bar widgets, and session analytics.

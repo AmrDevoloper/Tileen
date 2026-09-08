@@ -63,3 +63,14 @@ If macOS refuses to open the application, open **Terminal** and execute:
 
 ```bash
 sudo xattr -rd com.apple.quarantine /Applications/Tileen.app
+
+
+<!-- Badge at top of README -->
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/YOUR_BUYMEACOFFEE_USERNAME)
+
+---
+
+### ☕ Support the Project
+If **Tileen** helps you stay focused and boost your daily productivity, consider buying me a coffee to support future updates and open-source maintenance!
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="amrodev" data-description="Support me on Buy me a coffee!" data-message=""Hi there! 👋 I created Tileen to help developers, writers, and deep workers boost their focus and reclaim uninterrupted flow state on macOS. If Tileen has helped you stay focused, beat procrastination, or manage your time better, buying me a coffee is a great way to support ongoing updates, new features, and app maintenance! ☕✨"" data-color="#BD5FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

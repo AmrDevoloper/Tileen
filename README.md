@@ -86,22 +86,6 @@ If **Tileen** helps you stay focused, beat procrastination, and boost your daily
 
 ---
 
-## 🛠️ Building from Source (Developer Setup)
-
-If you prefer to build Tileen directly from source using Xcode:
-
-1. Requirements: **macOS 13.0+** and **Xcode 14.0+**.
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/Tileen.git
-   cd Tileen
-   ```
-3. Open `Tileen.xcodeproj` in Xcode.
-4. Select `Tileen` target and your local Mac as destination (`My Mac`).
-5. Press `Cmd + R` to build and run.
-
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.

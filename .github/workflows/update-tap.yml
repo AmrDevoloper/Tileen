@@ -1,0 +1,45 @@
+name: Update Homebrew Cask
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  update-cask:
+    runs-on: macos-latest
+    steps:
+      - name: Calculate Hash and Update Cask
+        env:
+          GH_TOKEN: ${{ secrets.TAP_GITHUB_TOKEN }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          # Download asset and calculate sha256
+          URL="https://github.com/AmrDevoloper/Tileen/releases/download/${TAG}/Tileen.app.zip"
+          HASH=$(curl -sL "$URL" | shasum -a 256 | awk '{print $1}')
+          
+          # Clone the tap repository
+          git clone https://x-access-token:${GH_TOKEN}@github.com/AmrDevoloper/homebrew-tap.git tap-repo
+          cd tap-repo
+          
+          # Write the updated recipe
+          mkdir -p Casks
+          cat <<EOF > Casks/tileen.rb
+          cask "tileen" do
+            version "${TAG}"
+            sha256 "${HASH}"
+
+            url "https://github.com/AmrDevoloper/Tileen/releases/download/#{version}/Tileen.app.zip"
+            name "Tileen"
+            desc "Menu bar productivity timer"
+            homepage "https://github.com/AmrDevoloper/Tileen"
+
+            app "Tileen.app"
+          end
+          EOF
+          
+          # Commit and push changes
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Casks/tileen.rb
+          git commit -m "Bump tileen cask to version ${TAG}" || exit 0
+          git push origin main

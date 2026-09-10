@@ -10,6 +10,19 @@
 
 ---
 
+## ✨ Features
+
+- ⏱️ **Chained Timer Sequences**: Combine focus blocks, short breaks, and long breaks into custom multi-step workflows (Pomodoro 25/5, Deep Work 50/10, Rapid Sprint 15/3, or custom chains).
+- 🛡️ **Focus Shield**: Automatically hides distracting Mac applications and closes blocked website tabs in **Safari**, **Google Chrome**, **Brave**, **Arc**, and **Microsoft Edge** during active focus sessions.
+- 💤 **Smart Idle Detection**: Pauses timer when you step away from your Mac and seamlessly resumes when activity is detected.
+- 📊 **Analytics & Session Logs**: Track total focus time vs. break duration, view historical performance charts, and review session trends.
+- 📝 **In-Timer Reflection & Quick Notes**: Jot down thoughts, tasks, and ideas during active timers without breaking your flow state.
+- 🖥️ **Menu Bar Integration**: View live countdown digits directly in your macOS menu bar with customizable colors.
+- 🌌 **Full-Screen Break Overlay**: Minimalist full-screen break overlay window to ensure you take genuine rest breaks.
+- ⌨️ **Global Hotkeys & Automation**: Trigger timers, skip steps, or take quick notes from anywhere using global keyboard shortcuts or custom AppleScripts/Shell scripts.
+
+---
+
 ## 📥 Download & Installation
 
 ### Option 1: Via Homebrew (Recommended)
@@ -30,19 +43,6 @@ brew upgrade --cask tileen
 1. Go to the [Releases](https://github.com/AmrDevoloper/Tileen/releases) page.
 2. Download the latest `Tileen.app.zip`.
 3. Unzip the downloaded file and drag **`Tileen.app`** into your `/Applications` folder.
-
----
-
-## ✨ Features
-
-- ⏱️ **Chained Timer Sequences**: Combine focus blocks, short breaks, and long breaks into custom multi-step workflows (Pomodoro 25/5, Deep Work 50/10, Rapid Sprint 15/3, or custom chains).
-- 🛡️ **Focus Shield**: Automatically hides distracting Mac applications and closes blocked website tabs in **Safari**, **Google Chrome**, **Brave**, **Arc**, and **Microsoft Edge** during active focus sessions.
-- 💤 **Smart Idle Detection**: Pauses timer when you step away from your Mac and seamlessly resumes when activity is detected.
-- 📊 **Analytics & Session Logs**: Track total focus time vs. break duration, view historical performance charts, and review session trends.
-- 📝 **In-Timer Reflection & Quick Notes**: Jot down thoughts, tasks, and ideas during active timers without breaking your flow state.
-- 🖥️ **Menu Bar Integration**: View live countdown digits directly in your macOS menu bar with customizable colors.
-- 🌌 **Full-Screen Break Overlay**: Minimalist full-screen break overlay window to ensure you take genuine rest breaks.
-- ⌨️ **Global Hotkeys & Automation**: Trigger timers, skip steps, or take quick notes from anywhere using global keyboard shortcuts or custom AppleScripts/Shell scripts.
 
 ---
 

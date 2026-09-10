@@ -1,3 +1,4 @@
+```markdown
 # ⏳ Tileen — Intelligent macOS Focus Shield & Chained Interval Timer
 
 ![macOS 13.0+](https://img.shields.io/badge/macOS-13.0%2B-blue.svg?style=flat-square&logo=apple)
@@ -6,7 +7,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/amrodev)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
 
-**Tileen** is a modern, high-performance macOS productivity application built natively with SwiftUI. Designed for deep work enthusiasts, developers, writers, and students, Tileen combines customizable chained interval timers with an active **Focus Shield**, smart idle detection, menu bar widgets, and session analytics.
+**Tileen** is a native SwiftUI productivity app for macOS featuring chained interval timers, an active **Focus Shield** to block distractions, smart idle detection, and session analytics.
 
 ---
 
@@ -25,31 +26,39 @@
 
 ## 📥 Download & Installation
 
-### Step 1: Download Tileen
-1. Go to the [Releases](https://github.com/YOUR_USERNAME/Tileen/releases) section of this repository.
-2. Download the latest `Tileen.zip` or `Tileen.app.zip`.
-3. Unzip the downloaded file and drag **`Tileen.app`** into your `/Applications` folder.
+### Option 1: Homebrew (Recommended)
+```bash
+brew install --cask [https://githubusercontent.com](https://githubusercontent.com)
+
+```
+
+### Option 2: Manual Download
+
+1. Download `Tileen.zip` from the [Releases](https://github.com) page.
+2. Unzip the file and move **`Tileen.app`** to your `/Applications` folder.
 
 ---
 
 ## ⚠️ Important: Bypassing macOS Gatekeeper (Unnotarized App)
 
 > [!IMPORTANT]
-> **Why do I see a security warning?**  
-> Tileen is an open-source project and is **not signed/notarized** with a paid Apple Developer ID certificate. When opening Tileen for the first time, macOS Gatekeeper will block it with a message such as:  
+> **Why do I see a security warning?**
+> Tileen is an open-source project and is **not signed/notarized** with a paid Apple Developer ID certificate. When opening Tileen for the first time, macOS Gatekeeper will block it with a message such as:
 > *"Tileen cannot be opened because it is from an unidentified developer"* or *"macOS cannot verify that this app is free from malware."*
 
 You can safely bypass this warning using any of the methods below:
 
 ### Method 1: Right-Click to Open (Easiest)
+
 1. Open **Finder** and navigate to your **Applications** folder.
 2. Right-click (or Control-click) on **`Tileen.app`** and select **Open** from the context menu.
-3. A security prompt will appear asking for confirmation. Click **Open**.  
+3. A security prompt will appear asking for confirmation. Click **Open**.
 *(You only need to perform this step once. Tileen will launch normally afterwards.)*
 
 ---
 
 ### Method 2: Via macOS System Settings
+
 1. Open **System Settings** on your Mac.
 2. Navigate to **Privacy & Security** in the sidebar.
 3. Scroll down to the **Security** section.
@@ -59,10 +68,12 @@ You can safely bypass this warning using any of the methods below:
 ---
 
 ### Method 3: Terminal Command (For Power Users)
+
 If macOS refuses to open the app, open **Terminal** and execute the following command to remove the quarantine attribute:
 
 ```bash
 sudo xattr -rd com.apple.quarantine /Applications/Tileen.app
+
 ```
 
 ---
@@ -80,16 +91,11 @@ To enable all of Tileen's core features, grant the following permissions when pr
 
 If **Tileen** helps you stay focused, beat procrastination, and boost your daily productivity, consider buying me a coffee! Your support fuels ongoing updates, new feature development, and open-source maintenance.
 
-<a href="https://www.buymeacoffee.com/YOUR_BUYMEACOFFEE_USERNAME" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180">
-</a>
-
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the **MIT License**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
 ---
 
@@ -97,6 +103,10 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 Your feedback helps make Tileen better! Have a feature request, suggestion, or bug report?
 
-- 🐛 **Report a Bug / Request Feature:** [Open a GitHub Issue](https://github.com/AmrDevoloper/Tileen/issues/new)
-- 💬 **Join Discussions:** [GitHub Discussions](https://github.com/AmrDevoloper/Tileen/discussions)
-- 📧 **Direct Email:** Send your feedback to `stall_spring4i@icloud.com`
+* 🐛 **Report a Bug / Request Feature:** [Open a GitHub Issue](https://www.google.com/search?q=https://github.com/AmrDevoloper/Tileen/issues/new)
+* 💬 **Join Discussions:** [GitHub Discussions](https://www.google.com/search?q=https://github.com/AmrDevoloper/Tileen/discussions)
+* 📧 **Direct Email:** Send your feedback to `stall_spring4i@icloud.com`
+
+```
+
+```

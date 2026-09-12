@@ -112,4 +112,4 @@ Your feedback helps make Tileen better! Have a feature request, suggestion, or b
 
 - 🐛 **Report a Bug / Request Feature:** [Open a GitHub Issue](https://github.com/AmrDevoloper/Tileen/issues/new)
 - 💬 **Join Discussions:** [GitHub Discussions](https://github.com/AmrDevoloper/Tileen/discussions)
-- 📧 **Direct Email:** Send your feedback to `stall_spring4i@icloud.com`
+- 📧 **Direct Email:** Send your feedback to `amr.devoloper@gmail.com`

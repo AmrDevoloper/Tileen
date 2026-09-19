@@ -1,10 +1,8 @@
-# ⏳ Tileen — Intelligent macOS Focus Shield & Chained Interval Timer
+Here is the updated documentation with the Homebrew section removed and the System Settings bypass method expanded in detail as the main recommendation:
 
-![macOS 13.0+](https://img.shields.io/badge/macOS-13.0%2B-blue.svg?style=flat-square&logo=apple)
-![SwiftUI](https://img.shields.io/badge/Swift-SwiftUI-orange.svg?style=flat-square&logo=swift)
-![Unnotarized](https://img.shields.io/badge/Gatekeeper-Unnotarized-yellow.svg?style=flat-square)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/amrodev)
-![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
+---
+
+# ⏳ Tileen — Intelligent macOS Focus Shield & Chained Interval Timer
 
 **Tileen** is a modern, high-performance macOS productivity application built natively with SwiftUI. Designed for deep work enthusiasts, developers, writers, and students, Tileen combines customizable chained interval timers with an active **Focus Shield**, smart idle detection, menu bar widgets, and session analytics.
 
@@ -12,35 +10,20 @@
 
 ## ✨ Features
 
-- ⏱️ **Chained Timer Sequences**: Combine focus blocks, short breaks, and long breaks into custom multi-step workflows (Pomodoro 25/5, Deep Work 50/10, Rapid Sprint 15/3, or custom chains).
-- 🛡️ **Focus Shield**: Automatically hides distracting Mac applications and closes blocked website tabs in **Safari**, **Google Chrome**, **Brave**, **Arc**, and **Microsoft Edge** during active focus sessions.
-- 💤 **Smart Idle Detection**: Pauses timer when you step away from your Mac and seamlessly resumes when activity is detected.
-- 📊 **Analytics & Session Logs**: Track total focus time vs. break duration, view historical performance charts, and review session trends.
-- 📝 **In-Timer Reflection & Quick Notes**: Jot down thoughts, tasks, and ideas during active timers without breaking your flow state.
-- 🖥️ **Menu Bar Integration**: View live countdown digits directly in your macOS menu bar with customizable colors.
-- 🌌 **Full-Screen Break Overlay**: Minimalist full-screen break overlay window to ensure you take genuine rest breaks.
-- ⌨️ **Global Hotkeys & Automation**: Trigger timers, skip steps, or take quick notes from anywhere using global keyboard shortcuts or custom AppleScripts/Shell scripts.
+* ⏱️ **Chained Timer Sequences**: Combine focus blocks, short breaks, and long breaks into custom multi-step workflows (Pomodoro 25/5, Deep Work 50/10, Rapid Sprint 15/3, or custom chains).
+* 🛡️ **Focus Shield**: Automatically hides distracting Mac applications and closes blocked website tabs in **Safari**, **Google Chrome**, **Brave**, **Arc**, and **Microsoft Edge** during active focus sessions.
+* 💤 **Smart Idle Detection**: Pauses timer when you step away from your Mac and seamlessly resumes when activity is detected.
+* 📊 **Analytics & Session Logs**: Track total focus time vs. break duration, view historical performance charts, and review session trends.
+* 📝 **In-Timer Reflection & Quick Notes**: Jot down thoughts, tasks, and ideas during active timers without breaking your flow state.
+* 🖥️ **Menu Bar Integration**: View live countdown digits directly in your macOS menu bar with customizable colors.
+* 🌌 **Full-Screen Break Overlay**: Minimalist full-screen break overlay window to ensure you take genuine rest breaks.
+* ⌨️ **Global Hotkeys & Automation**: Trigger timers, skip steps, or take quick notes from anywhere using global keyboard shortcuts or custom AppleScripts/Shell scripts.
 
 ---
 
 ## 📥 Download & Installation
 
-### Option 1: Via Homebrew (Recommended)
-You can install Tileen directly from the tap:
-
-```bash
-brew install --cask AmrDevoloper/tap/tileen
-```
-
-To update Tileen whenever a new version is released:
-```bash
-brew upgrade --cask tileen
-```
-
----
-
-### Option 2: Manual Download
-1. Go to the [Releases](https://github.com/AmrDevoloper/Tileen/releases) page.
+1. Go to the [Releases](https://github.com/AmrDevoloper/Tileen/releases?utm_source=gemini) page.
 2. Download the latest `Tileen.app.zip`.
 3. Unzip the downloaded file and drag **`Tileen.app`** into your `/Applications` folder.
 
@@ -49,35 +32,40 @@ brew upgrade --cask tileen
 ## ⚠️ Important: Bypassing macOS Gatekeeper (Unnotarized App)
 
 > [!IMPORTANT]
-> **Why do I see a security warning?**  
-> Tileen is an open-source project and is **not signed/notarized** with a paid Apple Developer ID certificate. When opening Tileen for the first time, macOS Gatekeeper will block it with a message such as:  
+> **Why do I see a security warning?**
+> Tileen is an open-source project and is **not signed/notarized** with a paid Apple Developer ID certificate. When opening Tileen for the first time, macOS Gatekeeper will block it with a message such as:
 > *"Tileen cannot be opened because it is from an unidentified developer"* or *"macOS cannot verify that this app is free from malware."*
 
-You can safely bypass this warning using any of the methods below:
+You can safely bypass this warning using either of the methods below:
 
-### Method 1: Right-Click to Open (Easiest)
-1. Open **Finder** and navigate to your **Applications** folder.
-2. Right-click (or Control-click) on **`Tileen.app`** and select **Open** from the context menu.
-3. A security prompt will appear asking for confirmation. Click **Open**.  
-*(You only need to perform this step once. Tileen will launch normally afterwards.)*
+### Method 1: Via macOS System Settings (Recommended)
 
----
+1. Double-click **`Tileen.app`** in your **Applications** folder to launch it once. When the security alert window appears stating the app cannot be opened, click **OK** or **Cancel** to dismiss it.
+2. Open **System Settings** on your Mac (via the Apple logo menu in the top left corner or System Settings icon in your Dock).
+3. Select **Privacy & Security** from the left-hand sidebar.
+4. Scroll down on the right pane to the **Security** section.
+5. You will see a dedicated notice reading: *"Tileen was blocked from use because it is not from an identified developer"* (or similar wording).
+6. Click the **Open Anyway** button located right next to the message.
+7. Enter your macOS administrator password or use Touch ID when prompted to authorize the exception.
+8. A final confirmation pop-up will ask if you are sure you want to open it. Click **Open**.
 
-### Method 2: Via macOS System Settings
-1. Open **System Settings** on your Mac.
-2. Navigate to **Privacy & Security** in the sidebar.
-3. Scroll down to the **Security** section.
-4. You will see a notification: *"Tileen was blocked from use because it is not from an identified developer"*.
-5. Click **Open Anyway** and enter your macOS admin password when prompted.
+*(You only need to complete this setup once. Tileen will launch normally without warnings in the future.)*
 
 ---
 
-### Method 3: Terminal Command (For Power Users)
-If macOS refuses to open the app, open **Terminal** and execute the following command to remove the quarantine attribute:
+### Method 2: Terminal Command (For Power Users)
+
+If macOS continues to block the application, you can explicitly remove the quarantine flag using Terminal:
+
+1. Open **Terminal** (via Spotlight or Applications > Utilities).
+2. Execute the following command:
 
 ```bash
 sudo xattr -rd com.apple.quarantine /Applications/Tileen.app
+
 ```
+
+3. Enter your Mac password when prompted, then press **Enter**.
 
 ---
 
@@ -94,15 +82,11 @@ To enable all of Tileen's core features, grant the following permissions when pr
 
 If **Tileen** helps you stay focused, beat procrastination, and boost your daily productivity, consider buying me a coffee! Your support fuels ongoing updates, new feature development, and open-source maintenance.
 
-<a href="https://www.buymeacoffee.com/amrodev" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180">
-</a>
-
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](https://www.google.com/search?q=LICENSE&utm_source=gemini) file for details.
 
 ---
 
@@ -110,6 +94,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 Your feedback helps make Tileen better! Have a feature request, suggestion, or bug report?
 
-- 🐛 **Report a Bug / Request Feature:** [Open a GitHub Issue](https://github.com/AmrDevoloper/Tileen/issues/new)
-- 💬 **Join Discussions:** [GitHub Discussions](https://github.com/AmrDevoloper/Tileen/discussions)
-- 📧 **Direct Email:** Send your feedback to `amr.devoloper@gmail.com`
+* 🐛 **Report a Bug / Request Feature:** [Open a GitHub Issue](https://github.com/AmrDevoloper/Tileen/issues/new?utm_source=gemini)
+* 💬 **Join Discussions:** [GitHub Discussions](https://github.com/AmrDevoloper/Tileen/discussions?utm_source=gemini)
+* 📧 **Direct Email:** Send your feedback to `amr.devoloper@gmail.com`

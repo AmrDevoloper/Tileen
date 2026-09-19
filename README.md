@@ -1,7 +1,3 @@
-Here is the updated documentation with the Homebrew section removed and the System Settings bypass method expanded in detail as the main recommendation:
-
----
-
 # ⏳ Tileen — Intelligent macOS Focus Shield & Chained Interval Timer
 
 **Tileen** is a modern, high-performance macOS productivity application built natively with SwiftUI. Designed for deep work enthusiasts, developers, writers, and students, Tileen combines customizable chained interval timers with an active **Focus Shield**, smart idle detection, menu bar widgets, and session analytics.
